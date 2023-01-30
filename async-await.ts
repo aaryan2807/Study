@@ -1,12 +1,12 @@
 import { timeStamp } from "console";
 import fetch from 'node-fetch';
 const word = "https://api.agify.io?name=bella";
-// function setup(){
-//     temp()
-//     .then(results => console.log(`I am in promise ${results.name}`))
-//     .catch(err =>console.log(err))
+function setup(){
+    temp()
+    .then(results => console.log(`I am in promise ${results.name}`))
+    .catch(err =>console.log(err))
     
-// }
+ }
 // function setup(){
 //     temp()
 //     .then(results => {
@@ -17,15 +17,15 @@ const word = "https://api.agify.io?name=bella";
 //     .catch(err =>console.log(err))
     
 // }
-// async function temp() {
-//     let response1=await fetch(word)
-//     let json1=await response1.json()
-//     return{
-//         name:json1.name
-//     }
+async function temp() {
+    let response1=await fetch(word)
+    let json1=await response1.json()
+    return{
+        name:json1.name
+    }
     
     
-// }
-// setup()
+}
+setup()
 
-//print a number in python?
+

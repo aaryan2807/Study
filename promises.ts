@@ -6,7 +6,7 @@ import { rejects } from 'assert';
 const word = "https://api.agify.io?name=bella";
 function setup() {
 
-//SIMPLE PROMISE
+// SIMPLE PROMISE
 
 //   let promise = fetch(word);
 //   promise.then(gotdata);
@@ -33,7 +33,7 @@ function setup() {
 // .catch(err=> console.log(err))
 
 
-//USER DEFINED PROMISE
+// USER DEFINED PROMISE
 delay(1000)
 .then(data=>console.log('hello'))
 .catch(err=>console.log(err))
